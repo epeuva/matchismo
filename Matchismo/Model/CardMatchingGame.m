@@ -24,6 +24,7 @@
     return _cards;
 }
 
+// Designated initializer
 - (instancetype) initWithCardCount: (NSUInteger)count
                          usingDeck:(Deck *)deck {
     self = [super init];
@@ -31,7 +32,7 @@
     if (self) {
         for (int i=0; i<count;i++) {
             Card *card =[deck drawRandomCard];
-            if(!_cards) {
+            if(card) {
                 //self.cards[i] = card;
                 [self.cards addObject:card];
             } else {
@@ -82,10 +83,9 @@ static const int COST_TO_CHOOSE = 1;
 
 }
 // Default method des not include the proper init, so we return nil *number of cards and deck
-//
-//- (instancetype) init {
-//    return nil;
-//}
+- (instancetype) init {
+    return nil;
+}
 
 
              
