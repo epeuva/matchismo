@@ -150,11 +150,19 @@
                                     <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o6R-Qh-Q7U"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0r-3h-f8J">
+                                <rect key="frame" x="16" y="527" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="scoreLabel" destination="Q0r-3h-f8J" id="Snh-DD-zfO"/>
                         <outletCollection property="cardButtons" destination="XxZ-Qg-s8b" id="TXi-N5-8dg"/>
                         <outletCollection property="cardButtons" destination="Dz3-KO-Gv2" id="CJs-AY-Bq1"/>
                         <outletCollection property="cardButtons" destination="Uxo-n4-f9M" id="xCi-y1-v2i"/>
@@ -171,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1033" y="156"/>
+            <point key="canvasLocation" x="-1033.125" y="155.28169014084509"/>
         </scene>
     </scenes>
     <resources>
