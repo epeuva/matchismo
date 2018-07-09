@@ -72,6 +72,7 @@ static const int COST_TO_CHOOSE = 1;
                         self.score -= MISMATCH_PENALTY;
                         card.matched = NO;
                         othercard.matched = NO;
+                        othercard.chosen = NO;
                     }
                     break;
                 }
