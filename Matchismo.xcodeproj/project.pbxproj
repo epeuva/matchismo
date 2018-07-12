@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33E59F6C20F7B9E20007405F /* PlayingCardGameViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E59F6B20F7B9E20007405F /* PlayingCardGameViewControler.m */; };
 		722F1CC320EBB8C6003E9749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F1CC220EBB8C6003E9749 /* AppDelegate.m */; };
 		722F1CC620EBB8C6003E9749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722F1CC520EBB8C6003E9749 /* ViewController.m */; };
 		722F1CC920EBB8C6003E9749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722F1CC720EBB8C6003E9749 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33E59F6A20F7B9D00007405F /* PlayingCardGameViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewControler.h; sourceTree = "<group>"; };
+		33E59F6B20F7B9E20007405F /* PlayingCardGameViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewControler.m; sourceTree = "<group>"; };
 		722F1CBE20EBB8C6003E9749 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722F1CC120EBB8C6003E9749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		722F1CC220EBB8C6003E9749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				722F1CF320EBBAC8003E9749 /* SupportingFiles */,
 				722F1CC420EBB8C6003E9749 /* ViewController.h */,
 				722F1CC520EBB8C6003E9749 /* ViewController.m */,
+				33E59F6A20F7B9D00007405F /* PlayingCardGameViewControler.h */,
+				33E59F6B20F7B9E20007405F /* PlayingCardGameViewControler.m */,
 				722F1CC720EBB8C6003E9749 /* Main.storyboard */,
 				722F1CCA20EBB8C6003E9749 /* Assets.xcassets */,
 				722F1CCC20EBB8C6003E9749 /* LaunchScreen.storyboard */,
@@ -313,6 +318,7 @@
 				7244080620EE688200891383 /* CardMatchingGame.m in Sources */,
 				722F1CC620EBB8C6003E9749 /* ViewController.m in Sources */,
 				722F1CD120EBB8C6003E9749 /* main.m in Sources */,
+				33E59F6C20F7B9E20007405F /* PlayingCardGameViewControler.m in Sources */,
 				722F1CC320EBB8C6003E9749 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
